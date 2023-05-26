@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Navbar.master.cs" Inherits="Projek.Navbar.Navbar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar">
+          <div class="container">
+            <a class="navbar-brand">
+                Home</a>
+            <div class="btn">
+               <asp:Button ID="LoginBtn" runat="server" Text="Login" class="btn btn-outline-success me-2" 
+                   onClick="LoginBtn_Click"/>
+               <asp:Button ID="RegisterBtn" runat="server" Text="Register" class="btn btn-outline-success" 
+                   onClick="RegisterBtn_Click"/>
+                <asp:Button ID="LogoutBtn" runat="server" Text="Logout" class="btn btn-danger" 
+                   onClick="LogoutBtn_Click" Visible="false"/>
+            </div>
+          </div>
+        </nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

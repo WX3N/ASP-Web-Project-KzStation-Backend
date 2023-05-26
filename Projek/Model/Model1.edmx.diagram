@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="585d5fa43e5c490889f2967b5917c5a1" Name="Diagram1">
+        <EntityTypeShape EntityType="Database1Model.Album" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Artist" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Cart" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Customer" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Table" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.TransactionDetail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.TransactionHeader" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="Database1Model.FK_Album_Artist" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Cart_Album" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_TransactionDetail_Album" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Cart_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_TransactionHeader_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_TransactionDetail_TransactionHeader" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
