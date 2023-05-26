@@ -34,13 +34,13 @@ namespace Projek.View
             }
             else
             {
-                role = "Customer";
+                role = "User";
             }
 
             if (name.Length != 0 && email.Length != 0 && password.Length != 0 && address.Length != 0)
             {
                 userRepository.Register(name, email, gender, address, password, role);
-                Response.Redirect("~/Views/Login.aspx");
+                Response.Redirect("~/View/Login.aspx");
             }
         }
     }

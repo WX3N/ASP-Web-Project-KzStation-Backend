@@ -15,6 +15,7 @@ namespace Projek.Repository
             Customer customer = CustomerFactory.createUser(name, email, gender, address, password, role);
 
             db.Customers.Add(customer);
+
             db.SaveChanges();
 
         }

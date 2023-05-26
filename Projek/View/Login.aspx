@@ -7,16 +7,18 @@
     <div class="cardbox"> 
         <div class="card">
             <span>Email : </span>
-            <asp:TextBox ID="EmailBox" runat="server" class=""></asp:TextBox>
+            <asp:TextBox ID="EmailTxt" runat="server" class=""></asp:TextBox>
             <asp:Label ID="EmailLbl" runat="server" Text="" Visible="false" ForeColor="Red"></asp:Label>
         </div>
         <div class="card">
             <span>Password : </span>
-            <asp:TextBox ID="PasswordBox" runat="server" class=""></asp:TextBox>
+            <asp:TextBox ID="PasswordTxt" runat="server" class=""></asp:TextBox>
             <asp:Label ID="PasswordLbl" runat="server" Text="" Visible="false" ForeColor="Red"></asp:Label>
         </div>
+        <asp:CheckBox ID="RememberCheckBox" runat="server"/>
+        <asp:Label ID="RememberLabel" runat="server" Text="Remember Me" AssociatedControlID="RememberCheckBox"></asp:Label>
     </div>
-
+    
     <p>
        <asp:Button ID="loginBtn" runat="server" Text="Login" class=""
             onClick="loginBtn_Click"/>

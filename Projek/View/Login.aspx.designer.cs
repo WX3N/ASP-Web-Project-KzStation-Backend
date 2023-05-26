@@ -15,13 +15,13 @@ namespace Projek.View
     {
 
         /// <summary>
-        /// EmailBox control.
+        /// EmailTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EmailBox;
+        protected global::System.Web.UI.WebControls.TextBox EmailTxt;
 
         /// <summary>
         /// EmailLbl control.
@@ -33,13 +33,13 @@ namespace Projek.View
         protected global::System.Web.UI.WebControls.Label EmailLbl;
 
         /// <summary>
-        /// PasswordBox control.
+        /// PasswordTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PasswordBox;
+        protected global::System.Web.UI.WebControls.TextBox PasswordTxt;
 
         /// <summary>
         /// PasswordLbl control.
@@ -49,6 +49,24 @@ namespace Projek.View
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label PasswordLbl;
+
+        /// <summary>
+        /// RememberCheckBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox RememberCheckBox;
+
+        /// <summary>
+        /// RememberLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label RememberLabel;
 
         /// <summary>
         /// loginBtn control.
