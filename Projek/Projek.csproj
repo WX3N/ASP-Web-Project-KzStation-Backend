@@ -94,7 +94,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Factory\UserFactory.cs" />
+    <Compile Include="Factory\CustomerFactory.cs" />
     <Compile Include="Model\Album.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -139,7 +139,7 @@
     <Compile Include="Model\TransactionHeader.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="Repository\CustomerRepository.cs" />
     <Compile Include="View\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

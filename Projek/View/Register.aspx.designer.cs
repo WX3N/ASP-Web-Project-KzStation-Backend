@@ -15,13 +15,13 @@ namespace Projek.View
     {
 
         /// <summary>
-        /// NameBox control.
+        /// NameTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox NameBox;
+        protected global::System.Web.UI.WebControls.TextBox NameTxt;
 
         /// <summary>
         /// NameLbl control.
@@ -33,13 +33,13 @@ namespace Projek.View
         protected global::System.Web.UI.WebControls.Label NameLbl;
 
         /// <summary>
-        /// EmailBox control.
+        /// EmailTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EmailBox;
+        protected global::System.Web.UI.WebControls.TextBox EmailTxt;
 
         /// <summary>
         /// EmailLbl control.
@@ -51,31 +51,13 @@ namespace Projek.View
         protected global::System.Web.UI.WebControls.Label EmailLbl;
 
         /// <summary>
-        /// GenderMale control.
+        /// GenderList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton GenderMale;
-
-        /// <summary>
-        /// GenderFemale control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton GenderFemale;
-
-        /// <summary>
-        /// GenderLbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label GenderLbl;
+        protected global::System.Web.UI.WebControls.RadioButtonList GenderList;
 
         /// <summary>
         /// AddressTxt control.
@@ -96,13 +78,13 @@ namespace Projek.View
         protected global::System.Web.UI.WebControls.Label AddressLbl;
 
         /// <summary>
-        /// PasswordBox control.
+        /// PasswordTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PasswordBox;
+        protected global::System.Web.UI.WebControls.TextBox PasswordTxt;
 
         /// <summary>
         /// PasswordLbl control.

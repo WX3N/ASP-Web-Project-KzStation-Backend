@@ -9,26 +9,28 @@
     <div class="cardbox"> 
         <div class="card">
             <span>Name : </span>
-            <asp:TextBox ID="NameBox" runat="server" class=""></asp:TextBox>
+            <asp:TextBox ID="NameTxt" runat="server" class=""></asp:TextBox>
             <asp:Label ID="NameLbl" runat="server" Text="" Visible="false" ForeColor="Red"></asp:Label>
         </div>
 
         <div class="card">
             <span>Email : </span>
-            <asp:TextBox ID="EmailBox" runat="server" class=""></asp:TextBox>
+            <asp:TextBox ID="EmailTxt" runat="server" class=""></asp:TextBox>
             <asp:Label ID="EmailLbl" runat="server" Text="" Visible="false" ForeColor="Red"></asp:Label>
         </div>
 
         <div class="card">
             
             <span>Gender : </span>
-                <asp:RadioButton ID="GenderMale" runat="server" />
-            <span>Male</span>
-                <asp:RadioButton ID="GenderFemale" runat="server" />
-            <span>Female</span>
-                <asp:Label ID="GenderLbl" runat="server" Text="" Visible="false" ForeColor="Red"></asp:Label>
-        </div>
 
+            <asp:RadioButtonList ID="GenderList" runat="server">
+            <asp:ListItem Text="Male" Value="M" />
+            <asp:ListItem Text="Female" Value="F" />
+            </asp:RadioButtonList>
+
+       </div>
+     
+        
         <div class="card">
             <span>Address : </span>
             <asp:TextBox ID="AddressTxt" runat="server" class=""></asp:TextBox>
@@ -37,7 +39,7 @@
 
         <div class="card">
             <span>Password : </span>
-            <asp:TextBox ID="PasswordBox" runat="server" class=""></asp:TextBox>
+            <asp:TextBox ID="PasswordTxt" runat="server" class=""></asp:TextBox>
             <asp:Label ID="PasswordLbl" runat="server" Text="" Visible="false" ForeColor="Red"></asp:Label>
         </div>
     </div>
