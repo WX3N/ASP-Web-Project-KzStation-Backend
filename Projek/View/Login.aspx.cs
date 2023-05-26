@@ -21,14 +21,34 @@ namespace Projek.View
             }
         }
 
+
         protected bool validation(string email, string password)
         {
-            if (email.Length == 0 && password.Length == 0)
+            if (email.Length == 0 || password.Length == 0)
             {
+                if (email.Length == 0)
+                {
+                    EmailLbl.Text = "Email Must be filled";
+                    EmailLbl.Visible = true;
+                }
+
+                if (password.Length == 0)
+                {
+                    PasswordLbl.Text = "Password Must be filled !";
+                    PasswordLbl.Visible = true;
+                }
+
                 return false;
             }
 
-            return true;
+            else
+            {
+                if (email.Length != 0) EmailLbl.Visible = false;
+                if (password.Length == 0) PasswordLbl.Visible = false;
+                return true;
+            }
+
+
         }
         protected void loginBtn_Click(object sender, EventArgs e)
         {
@@ -36,7 +56,7 @@ namespace Projek.View
             string password = PasswordTxt.Text.ToString();
             bool rememberMe = RememberCheckBox.Checked;
 
-            if(validation(email, password))
+            if (validation(email, password))
             {
                 Customer customer = customerRepository.Login(email, password);
                 if (customer != null)
@@ -52,7 +72,7 @@ namespace Projek.View
                     Response.Redirect("~/View/Home.aspx");
                 }
             }
-            
+
         }
     }
 }
