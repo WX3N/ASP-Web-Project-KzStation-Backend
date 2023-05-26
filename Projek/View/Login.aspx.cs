@@ -20,26 +20,38 @@ namespace Projek.View
             }
         }
 
+        protected bool validation(string email, string password)
+        {
+            if (email.Length == 0 && password.Length == 0)
+            {
+                return false;
+            }
 
+            return true;
+        }
         protected void loginBtn_Click(object sender, EventArgs e)
         {
             string email = EmailTxt.Text.ToString();
             string password = PasswordTxt.Text.ToString();
             bool rememberMe = RememberCheckBox.Checked;
-            Customer customer = customerRepository.Login(email, password);
 
-            if (customer != null)
+            if(validation(email, password))
             {
-                if (rememberMe)
+                Customer customer = customerRepository.Login(email, password);
+                if (customer != null)
                 {
-                    HttpCookie cookie = new HttpCookie("user_cookie");
-                    cookie.Value = customer.CustomerId.ToString();
-                    cookie.Expires = DateTime.Now.AddHours(1);
-                    Response.Cookies.Add(cookie);
+                    if (rememberMe)
+                    {
+                        HttpCookie cookie = new HttpCookie("user_cookie");
+                        cookie.Value = customer.CustomerId.ToString();
+                        cookie.Expires = DateTime.Now.AddHours(1);
+                        Response.Cookies.Add(cookie);
+                    }
+                    Session["User"] = customer;
+                    Response.Redirect("~/View/Home.aspx");
                 }
-                Session["User"] = customer;
-                Response.Redirect("~/View/Home.aspx");
             }
+            
         }
     }
 }
