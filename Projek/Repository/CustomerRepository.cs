@@ -22,19 +22,20 @@ namespace Projek.Repository
 
         public Customer Login(string email, string password)
         {
+            //Customer customer = db.Customers.Find(email, password);
             Customer customer = db.Customers.Where(x => x.CustomerEmail == email && x.CustomerPassword == password).FirstOrDefault();
             return customer;
         }
 
         public Customer getCustomer(int id)
         {
-            Customer customer = db.Customers.Where(x => x.CustomerId == id).FirstOrDefault();
+            Customer customer = db.Customers.Find(id);
             return customer;
         }
 
         public Customer getEmail(string email)
         {
-            Customer customer = db.Customers.Where(x => x.CustomerEmail == email).FirstOrDefault();
+            Customer customer = db.Customers.Find(email);
             return customer;
         }
 

@@ -4,15 +4,14 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <asp:Repeater ID="CardRepeater" runat="server">    
     <ItemTemplate>
-        <div class="card m-2 card-cloth">
+        <div>
+            <asp:Button ID="InsertBtn" runat="server" Text="Button" />
+            <asp:Button ID="DeleteBtn" runat="server" Text="Button" />
             <asp:LinkButton ID="OpenDetail" runat="server" Style="cursor: pointer" CommandArgument='<%#Eval("Id") %>' OnClick="OpenDetail_Click">
                 <div>
-                    <img src="../Assets/<%# Eval("ItemImage") %>" alt="...">
+                    <img src="../Assets/<%# Eval("ArtistImage") %>" alt="...">
                     <div class="card-body">
-                        <p class="card-text title-hover"><%# Eval("ItemName") %></p>
-                    </div>
-                    <div class="list-group list-group-flush">
-                        <p class="list-group-item text-right" style="font-size: 18px;"><b>$<%# Eval("ItemPrice") %></b></p>
+                        <p><%# Eval("ItemName") %></p>
                     </div>
                 </div>
             </asp:LinkButton>

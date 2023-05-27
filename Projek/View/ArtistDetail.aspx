@@ -8,9 +8,13 @@
         <asp:Image ID="ArtistImage" runat="server" />
         <asp:Label ID="ArtistName" runat="server"></asp:Label>
     </div>
+
+
+
     <div>
         <asp:Button ID="AlbumDetailsBtn" runat="server" Text="Album Details" OnClick="AlbumDetailsBtn_Click"/>
     </div>
+
 
 
 </asp:Content>

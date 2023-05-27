@@ -23,8 +23,6 @@ namespace Projek.Navbar
                 Session["User"] = customerRepository.getCustomer(id);
             }
 
-           
-            
             if (Session["User"] != null && customer.CustomerRole=="User")
             {
                 LoginBtn.Visible = false;
@@ -35,7 +33,7 @@ namespace Projek.Navbar
                 UpdateProfileBtn.Visible = true;
                 LogoutBtn.Visible = true;
             }
-            else
+            else if (Session["User"] != null && customer.CustomerRole == "Admin")
             {
                 LoginBtn.Visible = false;
                 RegisterBtn.Visible = false;
@@ -43,6 +41,16 @@ namespace Projek.Navbar
                 TransactionBtn.Visible = false;
                 TransactionReportBtn.Visible = true;
                 UpdateProfileBtn.Visible = true;
+                LogoutBtn.Visible = true;
+            }
+            else
+            {
+                LoginBtn.Visible = true;
+                RegisterBtn.Visible = true;
+                CartBtn.Visible = false;
+                TransactionBtn.Visible = false;
+                TransactionReportBtn.Visible = false;
+                UpdateProfileBtn.Visible = false;
                 LogoutBtn.Visible = true;
             }
             

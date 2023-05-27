@@ -35,7 +35,11 @@ namespace Projek.Repository
                 db.SaveChanges();
             }
 
-         
-        
+        public Artist getArtist(int id)
+        {
+            Artist artist = db.Artists.Where(x => x.ArtistId == id).FirstOrDefault();
+            return artist;
+        }
+
     }
 }
