@@ -14,19 +14,38 @@ namespace Projek.Navbar
         CustomerRepository customerRepository = new CustomerRepository();
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+            Customer customer = (Customer)Session["User"]; 
             if (Request.Cookies["user_cookie"] != null)
             {
                 int id = Convert.ToInt32(Request.Cookies["user_cookie"].Value);
-                Customer customer = customerRepository.getCustomer(id);
-                Session["User"] = customer;
+                
+                Session["User"] = customerRepository.getCustomer(id);
             }
-            if (Session["User"] != null)
+
+           
+            
+            if (Session["User"] != null && customer.CustomerRole=="User")
             {
                 LoginBtn.Visible = false;
                 RegisterBtn.Visible = false;
-                
+                CartBtn.Visible = true;
+                TransactionBtn.Visible = true;
+                TransactionReportBtn.Visible = false;
+                UpdateProfileBtn.Visible = true;
                 LogoutBtn.Visible = true;
             }
+            else
+            {
+                LoginBtn.Visible = false;
+                RegisterBtn.Visible = false;
+                CartBtn.Visible = false;
+                TransactionBtn.Visible = false;
+                TransactionReportBtn.Visible = true;
+                UpdateProfileBtn.Visible = true;
+                LogoutBtn.Visible = true;
+            }
+            
         }
 
         protected void LoginBtn_Click(object sender, EventArgs e)
@@ -51,6 +70,26 @@ namespace Projek.Navbar
             }
 
             Response.Redirect("~/View/Login.aspx");
+        }
+
+        protected void CartBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void UpdateProfileBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void TransactionBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void TransactionReportBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

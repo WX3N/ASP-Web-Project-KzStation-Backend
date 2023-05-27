@@ -51,6 +51,42 @@ namespace Projek.Navbar
         protected global::System.Web.UI.WebControls.Button RegisterBtn;
 
         /// <summary>
+        /// CartBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button CartBtn;
+
+        /// <summary>
+        /// TransactionBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button TransactionBtn;
+
+        /// <summary>
+        /// TransactionReportBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button TransactionReportBtn;
+
+        /// <summary>
+        /// UpdateProfileBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button UpdateProfileBtn;
+
+        /// <summary>
         /// LogoutBtn control.
         /// </summary>
         /// <remarks>

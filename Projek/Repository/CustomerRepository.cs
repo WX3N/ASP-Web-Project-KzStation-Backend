@@ -37,5 +37,11 @@ namespace Projek.Repository
             Customer customer = db.Customers.Where(x => x.CustomerEmail == email).FirstOrDefault();
             return customer;
         }
+
+        public Customer getRole(string role)
+        {
+            Customer customer = db.Customers.Where(x => x.CustomerRole == "User").FirstOrDefault();
+            return customer;
+        }
     }
 }

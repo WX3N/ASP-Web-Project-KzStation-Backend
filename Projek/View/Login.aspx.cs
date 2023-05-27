@@ -22,41 +22,46 @@ namespace Projek.View
         }
 
 
-        protected bool validation(string email, string password)
+        protected bool loginValidation(string email, string password)
         {
-            if (email.Length == 0 || password.Length == 0)
-            {
+            int count = 0;
+
                 if (email.Length == 0)
                 {
                     EmailLbl.Text = "Email Must be filled";
                     EmailLbl.Visible = true;
+                    count++;
+                }
+                else
+                {
+                    EmailLbl.Visible = false;
                 }
 
                 if (password.Length == 0)
                 {
                     PasswordLbl.Text = "Password Must be filled !";
                     PasswordLbl.Visible = true;
+                    count++;
+                }
+                else
+                {
+                    PasswordLbl.Visible = false;
                 }
 
-                return false;
-            }
-
-            else
-            {
-                if (email.Length != 0) EmailLbl.Visible = false;
-                if (password.Length == 0) PasswordLbl.Visible = false;
-                return true;
-            }
-
-
+                if(count > 0)
+                {
+                    return false;
+                }
+                return true;  
         }
+
         protected void loginBtn_Click(object sender, EventArgs e)
         {
             string email = EmailTxt.Text.ToString();
             string password = PasswordTxt.Text.ToString();
             bool rememberMe = RememberCheckBox.Checked;
 
-            if (validation(email, password))
+            if (loginValidation(email, password))
             {
                 Customer customer = customerRepository.Login(email, password);
                 if (customer != null)

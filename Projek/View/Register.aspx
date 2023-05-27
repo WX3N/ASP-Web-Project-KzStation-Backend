@@ -27,7 +27,8 @@
             <asp:ListItem Text="Male" Value="M" />
             <asp:ListItem Text="Female" Value="F" />
             </asp:RadioButtonList>
-
+            <asp:Label ID="GenderLbl" runat="server" Text="" Visible="false" ForeColor="Red"></asp:Label>
+  
        </div>
      
         

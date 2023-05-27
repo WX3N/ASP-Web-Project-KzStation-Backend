@@ -15,12 +15,13 @@
             <a class="navbar-brand">
                 Home</a>
             <div class="btn">
-               <asp:Button ID="LoginBtn" runat="server" Text="Login" class="btn btn-outline-success me-2" 
-                   onClick="LoginBtn_Click"/>
-               <asp:Button ID="RegisterBtn" runat="server" Text="Register" class="btn btn-outline-success" 
-                   onClick="RegisterBtn_Click"/>
-                <asp:Button ID="LogoutBtn" runat="server" Text="Logout" class="btn btn-danger" 
-                   onClick="LogoutBtn_Click" Visible="false"/>
+               <asp:Button ID="LoginBtn" runat="server" Text="Login" onClick="LoginBtn_Click"/>
+               <asp:Button ID="RegisterBtn" runat="server" Text="Register" onClick="RegisterBtn_Click"/>
+                <asp:Button ID="CartBtn" runat="server" Text="Cart" onClick="CartBtn_Click" Visible="false"/>
+                <asp:Button ID="TransactionBtn" runat="server" Text="Transaction" onClick="TransactionBtn_Click" Visible="false"/>
+                <asp:Button ID="TransactionReportBtn" runat="server" Text="Transaction" onClick="TransactionReportBtn_Click" Visible="false"/>
+                <asp:Button ID="UpdateProfileBtn" runat="server" Text="Update Profile" onClick="UpdateProfileBtn_Click" Visible="false"/>
+                <asp:Button ID="LogoutBtn" runat="server" Text="Logout" onClick="LogoutBtn_Click" Visible="false"/>
             </div>
           </div>
         </nav>
