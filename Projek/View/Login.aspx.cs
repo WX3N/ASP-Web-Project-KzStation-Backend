@@ -15,10 +15,13 @@ namespace Projek.View
         CustomerRepository customerRepository = new CustomerRepository();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["user"] != null || Request.Cookies["user_cookie"] != null)
-            {
-                Response.Redirect("~/View/Home.aspx");
+            if (!IsPostBack){
+                if (Session["user"] != null || Request.Cookies["user_cookie"] != null)
+                {
+                    Response.Redirect("~/View/Home.aspx");
+                }
             }
+            
         }
 
 

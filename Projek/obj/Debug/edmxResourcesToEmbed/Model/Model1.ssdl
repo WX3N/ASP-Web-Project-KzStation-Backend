@@ -16,7 +16,7 @@
     <Key>
       <PropertyRef Name="ArtistId" />
     </Key>
-    <Property Name="ArtistId" Type="int" Nullable="false" />
+    <Property Name="ArtistId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="ArtistName" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="ArtistImage" Type="varchar" MaxLength="50" Nullable="false" />
   </EntityType>

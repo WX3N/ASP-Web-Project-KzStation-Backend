@@ -21,7 +21,7 @@
           <Key>
             <PropertyRef Name="ArtistId" />
           </Key>
-          <Property Name="ArtistId" Type="int" Nullable="false" />
+          <Property Name="ArtistId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="ArtistName" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="ArtistImage" Type="varchar" MaxLength="50" Nullable="false" />
         </EntityType>
@@ -197,7 +197,7 @@
           <Key>
             <PropertyRef Name="ArtistId" />
           </Key>
-          <Property Name="ArtistId" Type="Int32" Nullable="false" />
+          <Property Name="ArtistId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="ArtistName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="ArtistImage" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="Albums" Relationship="Self.FK_Album_Artist" FromRole="Artist" ToRole="Album" />

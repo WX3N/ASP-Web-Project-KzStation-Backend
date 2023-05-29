@@ -9,7 +9,8 @@ namespace Projek.Factory
 {
     public class CustomerFactory
     {
-        public static Customer createUser(string name, string email, string gender, string address, string password, string role)
+        public static Customer createUser(string name, string email, string gender, 
+            string address, string password, string role)
         {
             return new Customer
             {
@@ -23,3 +24,6 @@ namespace Projek.Factory
         }
     }
 }
+
+
+

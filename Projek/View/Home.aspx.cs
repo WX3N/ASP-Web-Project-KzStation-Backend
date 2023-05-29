@@ -19,6 +19,7 @@ namespace Projek.View
         {
             CardRepeater.DataSource = db.Artists.ToList();
             CardRepeater.DataBind();
+
         }
 
         protected void OpenDetail_Click(object sender, EventArgs e)
@@ -26,6 +27,20 @@ namespace Projek.View
             LinkButton linkbtn = (LinkButton)sender;
             string id = linkbtn.CommandArgument;
             Response.Redirect("~/View/ArtistDetail.aspx?id=" + id);
+        }
+
+
+        protected void DeleteBtn_Click(object sender, EventArgs e)
+        {
+            
+            int id = Convert.ToInt32(Request.QueryString["Id"]);
+            artistRepository.DeleteArtist(id);
+            Response.Redirect("~/View/Home.aspx");
+        }
+
+        protected void UpdateBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

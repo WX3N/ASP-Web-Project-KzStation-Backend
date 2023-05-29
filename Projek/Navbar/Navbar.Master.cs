@@ -14,34 +14,46 @@ namespace Projek.Navbar
         CustomerRepository customerRepository = new CustomerRepository();
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-            Customer customer = (Customer)Session["User"]; 
             if (Request.Cookies["user_cookie"] != null)
             {
                 int id = Convert.ToInt32(Request.Cookies["user_cookie"].Value);
-                
-                Session["User"] = customerRepository.getCustomer(id);
+                Customer customer = customerRepository.getCustomer(id);
+                Session["User"] = customer;
             }
 
-            if (Session["User"] != null && customer.CustomerRole=="User")
+            if (Session["User"] != null)
             {
-                LoginBtn.Visible = false;
-                RegisterBtn.Visible = false;
-                CartBtn.Visible = true;
-                TransactionBtn.Visible = true;
-                TransactionReportBtn.Visible = false;
-                UpdateProfileBtn.Visible = true;
-                LogoutBtn.Visible = true;
-            }
-            else if (Session["User"] != null && customer.CustomerRole == "Admin")
-            {
-                LoginBtn.Visible = false;
-                RegisterBtn.Visible = false;
-                CartBtn.Visible = false;
-                TransactionBtn.Visible = false;
-                TransactionReportBtn.Visible = true;
-                UpdateProfileBtn.Visible = true;
-                LogoutBtn.Visible = true;
+                Customer customer = (Customer)Session["User"];
+                if (Request.Cookies["user_cookie"] != null)
+                {
+                    int id = Convert.ToInt32(Request.Cookies["user_cookie"].Value);
+
+                    Session["User"] = customerRepository.getCustomer(id);
+                }
+
+                if (Session["User"] != null && customer.CustomerRole == "User")
+                {
+                    LoginBtn.Visible = false;
+                    RegisterBtn.Visible = false;
+                    CartBtn.Visible = true;
+                    TransactionBtn.Visible = true;
+                    TransactionReportBtn.Visible = false;
+                    UpdateProfileBtn.Visible = true;
+                    LogoutBtn.Visible = true;
+                    InsertArtistBtn.Visible = false;
+                }
+                else if (Session["User"] != null && customer.CustomerRole == "Admin")
+                {
+                    LoginBtn.Visible = false;
+                    RegisterBtn.Visible = false;
+                    CartBtn.Visible = false;
+                    TransactionBtn.Visible = false;
+                    TransactionReportBtn.Visible = true;
+                    UpdateProfileBtn.Visible = true;
+                    LogoutBtn.Visible = true;
+                    InsertArtistBtn.Visible = true;
+                }
+                
             }
             else
             {
@@ -51,9 +63,11 @@ namespace Projek.Navbar
                 TransactionBtn.Visible = false;
                 TransactionReportBtn.Visible = false;
                 UpdateProfileBtn.Visible = false;
-                LogoutBtn.Visible = true;
+                LogoutBtn.Visible = false;
+                InsertArtistBtn.Visible = false;
             }
             
+
         }
 
         protected void LoginBtn_Click(object sender, EventArgs e)
@@ -98,6 +112,11 @@ namespace Projek.Navbar
         protected void TransactionReportBtn_Click(object sender, EventArgs e)
         {
 
+        }
+
+        protected void InsertArtistBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/View/InsertArtist.aspx");
         }
     }
 }
