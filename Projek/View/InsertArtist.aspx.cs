@@ -25,15 +25,17 @@ namespace Projek.View
 
         protected void SubmitBtn_Click(object sender, EventArgs e)
         {
-            if (FileUpload1.HasFile)
-            {
-                string name = ArtistNameTxt.Text;
-                FileUpload1.SaveAs(Server.MapPath("~") + "/Assets/Artist/" + FileUpload1.FileName);
-                string imageName = FileUpload1.FileName;
-                artistRepository.AddArtist(name, imageName);
+               if (FileUpload1.HasFile)
+                {
+                    string name = ArtistNameTxt.Text;
+                    FileUpload1.SaveAs(Server.MapPath("~") + "/Assets/Artist/" + FileUpload1.FileName);
+                    string imageName = FileUpload1.FileName;
+                    artistRepository.AddArtist(name, imageName);
+                    artistRepository.AddArtist(name, imageName);
+                    Response.Redirect("~/View/Home.aspx");
+              }
 
-                Response.Redirect("~/View/Home.aspx");
-            }
+
         }
     }
 }

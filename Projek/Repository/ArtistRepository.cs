@@ -18,22 +18,32 @@ namespace Projek.Repository
                 db.SaveChanges();
             }
 
-            public void DeleteArtist(int id)
-            {
-                Artist artist = db.Artists.Where(x => x.ArtistId == id).FirstOrDefault();
+        public void DeleteArtist(int id)
+        {
+             Artist artist = db.Artists.Where(x => x.ArtistId == id).FirstOrDefault();
+        //    Artist artist = db.Artists.Find(id);
+      
+            db.Artists.Remove(artist);
+            db.SaveChanges();
 
-                db.Artists.Remove(artist);
-                db.SaveChanges();
-            }
 
-            public void UpdateArtist(int id, string artistName, string artistImage)
+    }
+ 
+
+        public void UpdateArtist(int id, string artistName, string artistImage)
             {
-                Artist artist = db.Artists.Where(x => x.ArtistId == id).FirstOrDefault();
+            //Artist artist = db.Artists.Where(x => x.ArtistId == id).FirstOrDefault();
+                Artist artist = db.Artists.Find(id);
+            if (artist != null)
+            {
                 artist.ArtistName = artistName;
                 artist.ArtistImage = artistImage;
 
                 db.SaveChanges();
             }
+
+            }
+
 
         public Artist getArtist(int id)
         {

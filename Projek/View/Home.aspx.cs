@@ -17,8 +17,11 @@ namespace Projek.View
         CustomerRepository customerRepository = new CustomerRepository();
         protected void Page_Load(object sender, EventArgs e)
         {
-            CardRepeater.DataSource = db.Artists.ToList();
-            CardRepeater.DataBind();
+            if (!IsPostBack)
+            {
+                CardRepeater.DataSource = db.Artists.ToList();
+                CardRepeater.DataBind();
+            }
 
         }
 
@@ -32,14 +35,18 @@ namespace Projek.View
 
         protected void DeleteBtn_Click(object sender, EventArgs e)
         {
-            
-            int id = Convert.ToInt32(Request.QueryString["Id"]);
+            LinkButton linkbtn = (LinkButton)sender;
+            //RepeaterItem item = (RepeaterItem)linkbtn.NamingContainer;
+            int id = Convert.ToInt32(linkbtn.CommandArgument);
             artistRepository.DeleteArtist(id);
             Response.Redirect("~/View/Home.aspx");
         }
 
         protected void UpdateBtn_Click(object sender, EventArgs e)
         {
+            LinkButton linkbtn = (LinkButton)sender;
+            int id = Convert.ToInt32(linkbtn.CommandArgument);
+            Response.Redirect("~/View/UpdateArtist.aspx?artistId=" + id);
 
         }
     }

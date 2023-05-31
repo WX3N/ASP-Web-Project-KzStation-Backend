@@ -73,7 +73,7 @@ namespace Projek.View
                     {
                         HttpCookie cookie = new HttpCookie("user_cookie");
                         cookie.Value = customer.CustomerId.ToString();
-                        cookie.Expires = DateTime.Now.AddHours(1);
+                        cookie.Expires = DateTime.Now.AddDays(1);
                         Response.Cookies.Add(cookie);
                     }
                     Session["User"] = customer;
