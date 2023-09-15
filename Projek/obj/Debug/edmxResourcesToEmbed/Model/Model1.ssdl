@@ -4,7 +4,7 @@
     <Key>
       <PropertyRef Name="AlbumId" />
     </Key>
-    <Property Name="AlbumId" Type="int" Nullable="false" />
+    <Property Name="AlbumId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="ArtistId" Type="int" Nullable="false" />
     <Property Name="AlbumName" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="AlbumImage" Type="varchar" MaxLength="50" Nullable="false" />
@@ -22,10 +22,10 @@
   </EntityType>
   <EntityType Name="Cart">
     <Key>
-      <PropertyRef Name="CustomerId" />
+      <PropertyRef Name="AlbumId" />
     </Key>
-    <Property Name="CustomerId" Type="int" Nullable="false" />
     <Property Name="AlbumId" Type="int" Nullable="false" />
+    <Property Name="CustomerId" Type="int" Nullable="false" />
     <Property Name="Qty" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="Customer">
@@ -40,16 +40,10 @@
     <Property Name="CustomerAddress" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="CustomerRole" Type="varchar" MaxLength="5" />
   </EntityType>
-  <EntityType Name="Table">
-    <Key>
-      <PropertyRef Name="TransactionId" />
-    </Key>
-    <Property Name="TransactionId" Type="int" Nullable="false" />
-    <Property Name="Qty" Type="int" Nullable="false" />
-  </EntityType>
   <EntityType Name="TransactionDetail">
     <Key>
       <PropertyRef Name="TransactionId" />
+      <PropertyRef Name="AlbumId" />
     </Key>
     <Property Name="TransactionId" Type="int" Nullable="false" />
     <Property Name="Qty" Type="int" Nullable="false" />
@@ -77,7 +71,7 @@
   </Association>
   <Association Name="FK_Cart_Album">
     <End Role="Album" Type="Self.Album" Multiplicity="1" />
-    <End Role="Cart" Type="Self.Cart" Multiplicity="*" />
+    <End Role="Cart" Type="Self.Cart" Multiplicity="0..1" />
     <ReferentialConstraint>
       <Principal Role="Album">
         <PropertyRef Name="AlbumId" />
@@ -89,7 +83,7 @@
   </Association>
   <Association Name="FK_Cart_Customer">
     <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
-    <End Role="Cart" Type="Self.Cart" Multiplicity="0..1" />
+    <End Role="Cart" Type="Self.Cart" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Customer">
         <PropertyRef Name="CustomerId" />
@@ -113,7 +107,7 @@
   </Association>
   <Association Name="FK_TransactionDetail_TransactionHeader">
     <End Role="TransactionHeader" Type="Self.TransactionHeader" Multiplicity="1" />
-    <End Role="TransactionDetail" Type="Self.TransactionDetail" Multiplicity="0..1" />
+    <End Role="TransactionDetail" Type="Self.TransactionDetail" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="TransactionHeader">
         <PropertyRef Name="TransactionId" />
@@ -140,7 +134,6 @@
     <EntitySet Name="Artist" EntityType="Self.Artist" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Cart" EntityType="Self.Cart" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Table" EntityType="Self.Table" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TransactionDetail" EntityType="Self.TransactionDetail" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TransactionHeader" EntityType="Self.TransactionHeader" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_Album_Artist" Association="Self.FK_Album_Artist">

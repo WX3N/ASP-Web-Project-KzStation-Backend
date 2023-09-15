@@ -2,11 +2,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p>Artist List</p>
 
-<asp:Repeater ID="CardRepeater" runat="server">
+    <h1>Artist List</h1>
+
+    <asp:Button ID="InsertBtn" runat="server" Style="cursor: pointer;text-decoration: none; color: white; font-size: 15px; background-color: deepskyblue; padding: 4px 8px;" Text="Insert" Visible ="false" OnClick="InsertBtn_Click"/>
+
+<asp:Repeater ID="CardRepeater" runat="server" OnItemDataBound="CardRepeater_ItemDataBound">
     <ItemTemplate>
-        <%# Container.ItemIndex % 5 == 0 ? "<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px;'>" : "" %>
+        <%# Container.ItemIndex % 5 == 0 ? "<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; '>" : "" %>
         <div style="width: 200px; height: 200px; position: relative; margin: 8px; margin-bottom:55px;">
             <asp:LinkButton ID="OpenDetail" runat="server" Style="cursor: pointer; position: relative; text-align: center; display: block; width: 100%; height: 100%;" CommandArgument='<%#Eval("ArtistId") %>' OnClick="OpenDetail_Click">
                 <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;">

@@ -24,6 +24,15 @@ namespace Projek
         protected global::System.Web.UI.WebControls.TextBox ArtistNameTxt;
 
         /// <summary>
+        /// ArtistNameLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ArtistNameLbl;
+
+        /// <summary>
         /// FileUpload1 control.
         /// </summary>
         /// <remarks>
@@ -33,13 +42,13 @@ namespace Projek
         protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
 
         /// <summary>
-        /// ErrorTxt control.
+        /// ArtistImageLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ErrorTxt;
+        protected global::System.Web.UI.WebControls.Label ArtistImageLbl;
 
         /// <summary>
         /// SubmitBtn control.

@@ -40,7 +40,7 @@
 
         <div class="card">
             <span>Password : </span>
-            <asp:TextBox ID="PasswordTxt" runat="server" class=""></asp:TextBox>
+            <asp:TextBox ID="PasswordTxt" runat="server" class="" TextMode="Password"></asp:TextBox>
             <asp:Label ID="PasswordLbl" runat="server" Text="" Visible="false" ForeColor="Red"></asp:Label>
         </div>
     </div>
@@ -50,9 +50,7 @@
             <asp:Button ID="registerBtn" runat="server" Text="Register" class=""
             onClick="registerBtn_Click"/>
         </p>
-        <p>
-            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Views/Login.aspx"><input type="button" value="Login" class=""/></asp:HyperLink>
-        </p>
+        
                 
    </div>
  

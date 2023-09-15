@@ -29,7 +29,6 @@ namespace Projek.Model
         public virtual DbSet<Artist> Artists { get; set; }
         public virtual DbSet<Cart> Carts { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
-        public virtual DbSet<Table> Tables { get; set; }
         public virtual DbSet<TransactionDetail> TransactionDetails { get; set; }
         public virtual DbSet<TransactionHeader> TransactionHeaders { get; set; }
     }

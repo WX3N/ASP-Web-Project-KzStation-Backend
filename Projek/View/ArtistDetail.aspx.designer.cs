@@ -33,12 +33,21 @@ namespace Projek.View
         protected global::System.Web.UI.WebControls.Label ArtistName;
 
         /// <summary>
-        /// AlbumDetailsBtn control.
+        /// InsertBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AlbumDetailsBtn;
+        protected global::System.Web.UI.WebControls.Button InsertBtn;
+
+        /// <summary>
+        /// AlbumRepeater control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater AlbumRepeater;
     }
 }

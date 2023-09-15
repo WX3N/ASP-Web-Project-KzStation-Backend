@@ -14,8 +14,8 @@ namespace Projek.Model
     
     public partial class Cart
     {
-        public int CustomerId { get; set; }
         public int AlbumId { get; set; }
+        public int CustomerId { get; set; }
         public int Qty { get; set; }
     
         public virtual Album Album { get; set; }

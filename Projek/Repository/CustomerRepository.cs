@@ -9,40 +9,54 @@ namespace Projek.Repository
 {
     public class CustomerRepository
     {
-        Database1Entities1 db = new Database1Entities1();
-        public void Register(string name, string email, string gender, string address, string password, string role)
+        public static Database1Entities1 db = new Database1Entities1();
+        public static void Register(string name, string email, string gender, string address, string password, string role)
         {
-            Customer customer = CustomerFactory.createUser(name, email, gender, address, password, role);
-
-            db.Customers.Add(customer);
-
+            db.Customers.Add(CustomerFactory.createUser(name, email, gender, address, password, role));
             db.SaveChanges();
-
         }
 
-        public Customer Login(string email, string password)
+        public static dynamic IsValidCredential(string email, string password)
         {
-            //Customer customer = db.Customers.Find(email, password);
             Customer customer = db.Customers.Where(x => x.CustomerEmail == email && x.CustomerPassword == password).FirstOrDefault();
             return customer;
         }
 
-        public Customer getCustomer(int id)
+        public static dynamic getCustomer(int id)
         {
             Customer customer = db.Customers.Find(id);
             return customer;
         }
 
-        public Customer getEmail(string email)
+        public static dynamic getEmail(string email)
         {
-            Customer customer = db.Customers.Find(email);
+            Customer customer = db.Customers.Where(x => x.CustomerEmail == email).FirstOrDefault();
             return customer;
         }
 
-        public Customer getRole(string role)
+
+        public static dynamic getRole(string role)
         {
             Customer customer = db.Customers.Where(x => x.CustomerRole == "User").FirstOrDefault();
             return customer;
         }
+
+        public static void UpdateCustomer(int id, string name, string email, string gender, string address, string password)
+        {
+
+            Customer customer = db.Customers.Find(id);
+            if (customer != null)
+            {
+                customer.CustomerName = name;
+                customer.CustomerEmail = email;
+                customer.CustomerPassword = password;
+                customer.CustomerGender = gender;
+                customer.CustomerAddress = address;
+
+                db.SaveChanges();
+            }
+
+        }
+
     }
 }

@@ -124,3 +124,260 @@ D:\Binus University\SMT 4\LEC - Code Refactoring\AOL Coding\PSD\Projek\obj\Debug
 D:\Binus University\SMT 4\LEC - Code Refactoring\AOL Coding\PSD\Projek\obj\Debug\Projek.csproj.CopyComplete
 D:\Binus University\SMT 4\LEC - Code Refactoring\AOL Coding\PSD\Projek\obj\Debug\Projek.dll
 D:\Binus University\SMT 4\LEC - Code Refactoring\AOL Coding\PSD\Projek\obj\Debug\Projek.pdb
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.ReportSource.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.Shared.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.Web.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek\Projek\bin\stdole.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\obj\Debug\Projek.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\obj\Debug\Projek.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\obj\Debug\Projek.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\obj\Debug\Projek.pdb
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\Projek.dll.config
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\Projek.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\Projek.pdb
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\csc.exe
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\csc.exe.config
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\csc.rsp
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\csi.exe
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\csi.exe.config
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\csi.rsp
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.AppContext.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Console.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.IO.Compression.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Net.Http.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.ValueTuple.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\vbc.exe
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\vbc.exe.config
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\vbc.rsp
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.ReportSource.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.Shared.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.Web.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\EntityFramework.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\stdole.dll
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\EntityFramework.xml
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\Documents\1. KULIAH\Path Software\P\Projek - Copy\Projek\obj\Debug\Projek.csproj.CopyComplete
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\Projek.dll.config
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\Projek.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\Projek.pdb
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\csc.exe
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\csc.exe.config
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\csc.rsp
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\csi.exe
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\csi.exe.config
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\csi.rsp
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.AppContext.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Console.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.IO.Compression.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Net.Http.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.ValueTuple.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\vbc.exe
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\vbc.exe.config
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\vbc.rsp
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.ReportSource.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.Shared.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.Web.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\EntityFramework.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\stdole.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\EntityFramework.xml
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Downloads\Projek Lab\Projek\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\Downloads\Projek Lab\Projek\obj\Debug\Projek.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\Projek Lab\Projek\obj\Debug\Projek.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\Projek Lab\Projek\obj\Debug\Projek.csproj.CopyComplete
+C:\Users\ASUS\Downloads\Projek Lab\Projek\obj\Debug\Projek.dll
+C:\Users\ASUS\Downloads\Projek Lab\Projek\obj\Debug\Projek.pdb
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\Projek.dll.config
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\Projek.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\Projek.pdb
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\csc.exe
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\csc.exe.config
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\csc.rsp
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\csi.exe
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\csi.exe.config
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\csi.rsp
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.AppContext.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Console.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.IO.Compression.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Net.Http.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.ValueTuple.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\vbc.exe
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\vbc.exe.config
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\vbc.rsp
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.ReportSource.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.Shared.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.Web.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\EntityFramework.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\stdole.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\EntityFramework.xml
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\obj\Debug\Projek.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\obj\Debug\Projek.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\obj\Debug\Projek.csproj.CopyComplete
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\obj\Debug\Projek.dll
+C:\Users\ASUS\Downloads\Projek Lab + External Docum\Projek Lab\Projek\obj\Debug\Projek.pdb

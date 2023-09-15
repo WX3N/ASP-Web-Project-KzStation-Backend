@@ -15,121 +15,76 @@ namespace Projek.View
     {
 
         /// <summary>
-        /// InsertAlbumNameLbl control.
+        /// AlbumNameTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label InsertAlbumNameLbl;
+        protected global::System.Web.UI.WebControls.TextBox AlbumNameTxt;
 
         /// <summary>
-        /// InsertAlbumNameTxt control.
+        /// AlbumNameLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox InsertAlbumNameTxt;
+        protected global::System.Web.UI.WebControls.Label AlbumNameLbl;
 
         /// <summary>
-        /// InsertAlbumNameError control.
+        /// AlbumDescriptionTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label InsertAlbumNameError;
+        protected global::System.Web.UI.WebControls.TextBox AlbumDescriptionTxt;
 
         /// <summary>
-        /// InsertAlbumDescriptionLbl control.
+        /// AlbumDescriptionLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label InsertAlbumDescriptionLbl;
+        protected global::System.Web.UI.WebControls.Label AlbumDescriptionLbl;
 
         /// <summary>
-        /// InsertAlbumDescriptionTxt control.
+        /// AlbumPriceTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox InsertAlbumDescriptionTxt;
+        protected global::System.Web.UI.WebControls.TextBox AlbumPriceTxt;
 
         /// <summary>
-        /// InsertAlbumDescriptionError control.
+        /// AlbumPriceLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label InsertAlbumDescriptionError;
+        protected global::System.Web.UI.WebControls.Label AlbumPriceLbl;
 
         /// <summary>
-        /// InsertAlbumPriceLbl control.
+        /// AlbumStockTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label InsertAlbumPriceLbl;
+        protected global::System.Web.UI.WebControls.TextBox AlbumStockTxt;
 
         /// <summary>
-        /// InsertAlbumPriceTxt control.
+        /// AlbumStockLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox InsertAlbumPriceTxt;
-
-        /// <summary>
-        /// InsertAlbumPriceError control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label InsertAlbumPriceError;
-
-        /// <summary>
-        /// InsertAlbumStockLbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label InsertAlbumStockLbl;
-
-        /// <summary>
-        /// InsertAlbumStockTxt control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox InsertAlbumStockTxt;
-
-        /// <summary>
-        /// InsertAlbumStockError control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label InsertAlbumStockError;
-
-        /// <summary>
-        /// InsertAlbumImageLbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label InsertAlbumImageLbl;
+        protected global::System.Web.UI.WebControls.Label AlbumStockLbl;
 
         /// <summary>
         /// FileUpload1 control.
@@ -141,12 +96,30 @@ namespace Projek.View
         protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
 
         /// <summary>
-        /// InsertAlbumBtn control.
+        /// AlbumImageLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button InsertAlbumBtn;
+        protected global::System.Web.UI.WebControls.Label AlbumImageLbl;
+
+        /// <summary>
+        /// SubmitBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SubmitBtn;
+
+        /// <summary>
+        /// CancelBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button CancelBtn;
     }
 }

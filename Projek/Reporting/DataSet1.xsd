@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TransactionHeader" msprop:Generator_TableClassName="TransactionHeaderDataTable" msprop:Generator_TableVarName="tableTransactionHeader" msprop:Generator_RowChangedName="TransactionHeaderRowChanged" msprop:Generator_TablePropName="TransactionHeader" msprop:Generator_RowDeletingName="TransactionHeaderRowDeleting" msprop:Generator_RowChangingName="TransactionHeaderRowChanging" msprop:Generator_RowEvHandlerName="TransactionHeaderRowChangeEventHandler" msprop:Generator_RowDeletedName="TransactionHeaderRowDeleted" msprop:Generator_RowClassName="TransactionHeaderRow" msprop:Generator_UserTableName="TransactionHeader" msprop:Generator_RowEvArgName="TransactionHeaderRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TransactionId" msprop:Generator_ColumnVarNameInTable="columnTransactionId" msprop:Generator_ColumnPropNameInRow="TransactionId" msprop:Generator_ColumnPropNameInTable="TransactionIdColumn" msprop:Generator_UserColumnName="TransactionId" type="xs:string" minOccurs="0" />
+              <xs:element name="TransactionDate" msprop:Generator_ColumnVarNameInTable="columnTransactionDate" msprop:Generator_ColumnPropNameInRow="TransactionDate" msprop:Generator_ColumnPropNameInTable="TransactionDateColumn" msprop:Generator_UserColumnName="TransactionDate" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerId" msprop:Generator_ColumnVarNameInTable="columnCustomerId" msprop:Generator_ColumnPropNameInRow="CustomerId" msprop:Generator_ColumnPropNameInTable="CustomerIdColumn" msprop:Generator_UserColumnName="CustomerId" type="xs:string" minOccurs="0" />
+              <xs:element name="GrandTotalValue" msprop:Generator_ColumnVarNameInTable="columnGrandTotalValue" msprop:Generator_ColumnPropNameInRow="GrandTotalValue" msprop:Generator_ColumnPropNameInTable="GrandTotalValueColumn" msprop:Generator_UserColumnName="GrandTotalValue" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TransactionDetail" msprop:Generator_TableClassName="TransactionDetailDataTable" msprop:Generator_TableVarName="tableTransactionDetail" msprop:Generator_RowChangedName="TransactionDetailRowChanged" msprop:Generator_TablePropName="TransactionDetail" msprop:Generator_RowDeletingName="TransactionDetailRowDeleting" msprop:Generator_RowChangingName="TransactionDetailRowChanging" msprop:Generator_RowEvHandlerName="TransactionDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="TransactionDetailRowDeleted" msprop:Generator_RowClassName="TransactionDetailRow" msprop:Generator_UserTableName="TransactionDetail" msprop:Generator_RowEvArgName="TransactionDetailRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TransactionId" msprop:Generator_ColumnVarNameInTable="columnTransactionId" msprop:Generator_ColumnPropNameInRow="TransactionId" msprop:Generator_ColumnPropNameInTable="TransactionIdColumn" msprop:Generator_UserColumnName="TransactionId" type="xs:string" minOccurs="0" />
+              <xs:element name="AlbumId" msprop:Generator_ColumnVarNameInTable="columnAlbumId" msprop:Generator_ColumnPropNameInRow="AlbumId" msprop:Generator_ColumnPropNameInTable="AlbumIdColumn" msprop:Generator_UserColumnName="AlbumId" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_UserColumnName="Qty" type="xs:string" minOccurs="0" />
+              <xs:element name="AlbumPrice" msprop:Generator_ColumnVarNameInTable="columnAlbumPrice" msprop:Generator_ColumnPropNameInRow="AlbumPrice" msprop:Generator_ColumnPropNameInTable="AlbumPriceColumn" msprop:Generator_UserColumnName="AlbumPrice" type="xs:string" minOccurs="0" />
+              <xs:element name="SubTotalValue" msprop:Generator_ColumnVarNameInTable="columnSubTotalValue" msprop:Generator_ColumnPropNameInRow="SubTotalValue" msprop:Generator_ColumnPropNameInTable="SubTotalValueColumn" msprop:Generator_UserColumnName="SubTotalValue" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="TransactionHeader_TransactionDetail" msdata:parent="TransactionHeader" msdata:child="TransactionDetail" msdata:parentkey="TransactionId" msdata:childkey="TransactionId" msprop:Generator_UserChildTable="TransactionDetail" msprop:Generator_ChildPropName="GetTransactionDetailRows" msprop:Generator_UserRelationName="TransactionHeader_TransactionDetail" msprop:Generator_RelationVarName="relationTransactionHeader_TransactionDetail" msprop:Generator_UserParentTable="TransactionHeader" msprop:Generator_ParentPropName="TransactionHeaderRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

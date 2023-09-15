@@ -4,12 +4,11 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="3162e8f289514af8a97c92c1f35a624b" Name="Diagram1">
+      <Diagram DiagramId="fdada219442c494b812fdd67ac4bcb6b" Name="Diagram1">
         <EntityTypeShape EntityType="Database1Model.Album" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
         <EntityTypeShape EntityType="Database1Model.Artist" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
         <EntityTypeShape EntityType="Database1Model.Cart" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="Database1Model.Customer" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.Table" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
         <EntityTypeShape EntityType="Database1Model.TransactionDetail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="Database1Model.TransactionHeader" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
         <AssociationConnector Association="Database1Model.FK_Album_Artist" ManuallyRouted="false" />

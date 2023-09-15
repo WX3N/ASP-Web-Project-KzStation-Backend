@@ -4,20 +4,20 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Projek.Controller;
 using Projek.Model;
-using Projek.Repository;
 
 namespace Projek.Navbar
 {
     public partial class Navbar : System.Web.UI.MasterPage
     {
-        CustomerRepository customerRepository = new CustomerRepository();
+        
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Request.Cookies["user_cookie"] != null)
             {
                 int id = Convert.ToInt32(Request.Cookies["user_cookie"].Value);
-                Customer customer = customerRepository.getCustomer(id);
+                Customer customer = CustomerController.getCustomer(id);
                 Session["User"] = customer;
             }
 
@@ -28,7 +28,7 @@ namespace Projek.Navbar
                 {
                     int id = Convert.ToInt32(Request.Cookies["user_cookie"].Value);
 
-                    Session["User"] = customerRepository.getCustomer(id);
+                    Session["User"] = CustomerController.getCustomer(id);
                 }
 
                 if (Session["User"] != null && customer.CustomerRole == "User")
@@ -40,7 +40,6 @@ namespace Projek.Navbar
                     TransactionReportBtn.Visible = false;
                     UpdateProfileBtn.Visible = true;
                     LogoutBtn.Visible = true;
-                    InsertArtistBtn.Visible = false;
                 }
                 else if (Session["User"] != null && customer.CustomerRole == "Admin")
                 {
@@ -51,7 +50,6 @@ namespace Projek.Navbar
                     TransactionReportBtn.Visible = true;
                     UpdateProfileBtn.Visible = true;
                     LogoutBtn.Visible = true;
-                    InsertArtistBtn.Visible = true;
                 }
                 
             }
@@ -64,7 +62,6 @@ namespace Projek.Navbar
                 TransactionReportBtn.Visible = false;
                 UpdateProfileBtn.Visible = false;
                 LogoutBtn.Visible = false;
-                InsertArtistBtn.Visible = false;
             }
             
 
@@ -96,22 +93,28 @@ namespace Projek.Navbar
 
         protected void CartBtn_Click(object sender, EventArgs e)
         {
-
+            Customer customer = (Customer)Session["User"];
+            int customerId = customer.CustomerId;
+            Response.Redirect("~/View/Cart.aspx?customerId=" + customerId);
         }
 
         protected void UpdateProfileBtn_Click(object sender, EventArgs e)
         {
-
+            Customer customer = (Customer)Session["User"];
+            int customerId = customer.CustomerId;
+            Response.Redirect("~/View/UpdateProfile.aspx?customerId=" + customerId);
         }
 
         protected void TransactionBtn_Click(object sender, EventArgs e)
         {
-
+            Customer customer = (Customer)Session["User"];
+            int customerId = customer.CustomerId;
+            Response.Redirect("~/View/TransactionHistory.aspx?customerId=" + customerId);
         }
 
         protected void TransactionReportBtn_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/View/TransactionReport.aspx");
         }
 
         protected void InsertArtistBtn_Click(object sender, EventArgs e)

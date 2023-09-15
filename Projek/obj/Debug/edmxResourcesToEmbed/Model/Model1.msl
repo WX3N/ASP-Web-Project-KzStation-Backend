@@ -26,8 +26,8 @@
     <EntitySetMapping Name="Carts">
       <EntityTypeMapping TypeName="Database1Model.Cart">
         <MappingFragment StoreEntitySet="Cart">
-          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
           <ScalarProperty Name="AlbumId" ColumnName="AlbumId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
           <ScalarProperty Name="Qty" ColumnName="Qty" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -42,14 +42,6 @@
           <ScalarProperty Name="CustomerGender" ColumnName="CustomerGender" />
           <ScalarProperty Name="CustomerAddress" ColumnName="CustomerAddress" />
           <ScalarProperty Name="CustomerRole" ColumnName="CustomerRole" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="Tables">
-      <EntityTypeMapping TypeName="Database1Model.Table">
-        <MappingFragment StoreEntitySet="Table">
-          <ScalarProperty Name="TransactionId" ColumnName="TransactionId" />
-          <ScalarProperty Name="Qty" ColumnName="Qty" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

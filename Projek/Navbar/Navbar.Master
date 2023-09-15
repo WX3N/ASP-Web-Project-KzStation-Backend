@@ -7,12 +7,15 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
+
 </head>
 <body>
     <form id="form1" runat="server">
         <nav class="navbar">
           <div class="container">
-            <asp:HyperLink runat="server" NavigateUrl="~/View/Home.aspx">Home</asp:HyperLink>
+            <asp:HyperLink runat="server" NavigateUrl="~/View/Home.aspx" style="font-size: 25px; text-decoration: none; color: black; font-weight: normal;">KpopZtation</asp:HyperLink>
+
             <div class="btn">
                <asp:Button ID="LoginBtn" runat="server" Text="Login" onClick="LoginBtn_Click"/>
                <asp:Button ID="RegisterBtn" runat="server" Text="Register" onClick="RegisterBtn_Click"/>
@@ -20,8 +23,7 @@
                 <asp:Button ID="TransactionBtn" runat="server" Text="Transaction" onClick="TransactionBtn_Click" Visible="false"/>
                 <asp:Button ID="TransactionReportBtn" runat="server" Text="Transaction" onClick="TransactionReportBtn_Click" Visible="false"/>
                 <asp:Button ID="UpdateProfileBtn" runat="server" Text="Update Profile" onClick="UpdateProfileBtn_Click" Visible="false"/>
-                <asp:Button ID="LogoutBtn" runat="server" Text="Logout" onClick="LogoutBtn_Click" Visible="false"/>
-                <asp:Button ID="InsertArtistBtn" runat="server" Text="Insert Artist" onClick="InsertArtistBtn_Click" Visible="false"/>
+                <asp:Button ID="LogoutBtn" runat="server" Text="Logout" onClick="LogoutBtn_Click" Visible="false"/>               
             </div>
           </div>
         </nav>

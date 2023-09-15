@@ -42,6 +42,15 @@ namespace Projek.View
         protected global::System.Web.UI.WebControls.Label AlbumPrice;
 
         /// <summary>
+        /// AlbumStock control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label AlbumStock;
+
+        /// <summary>
         /// AlbumDescription control.
         /// </summary>
         /// <remarks>
@@ -51,30 +60,39 @@ namespace Projek.View
         protected global::System.Web.UI.WebControls.Label AlbumDescription;
 
         /// <summary>
-        /// InsertAlbumPageBtn control.
+        /// Quantity control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button InsertAlbumPageBtn;
+        protected global::System.Web.UI.WebControls.Label Quantity;
 
         /// <summary>
-        /// UpdateAlbumPageBtn control.
+        /// QuantityTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button UpdateAlbumPageBtn;
+        protected global::System.Web.UI.WebControls.TextBox QuantityTxt;
 
         /// <summary>
-        /// DeleteAlbumPageBtn control.
+        /// QuantityLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DeleteAlbumPageBtn;
+        protected global::System.Web.UI.WebControls.Label QuantityLbl;
+
+        /// <summary>
+        /// AddToCartBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button AddToCartBtn;
     }
 }

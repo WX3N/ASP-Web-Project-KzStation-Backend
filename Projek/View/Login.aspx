@@ -12,11 +12,14 @@
         </div>
         <div class="card">
             <span>Password : </span>
-            <asp:TextBox ID="PasswordTxt" runat="server" class=""></asp:TextBox>
-            <asp:Label ID="PasswordLbl" runat="server" Text="" Visible="false" ForeColor="Red"></asp:Label>
+            <asp:TextBox ID="PasswordTxt" runat="server" TextMode="Password" class=""></asp:TextBox>
+            <asp:Label ID="PasswordLbl" runat="server" Text="" Visible="false"  ForeColor="Red"></asp:Label>
         </div>
         <asp:CheckBox ID="RememberCheckBox" runat="server"/>
         <asp:Label ID="RememberLabel" runat="server" Text="Remember Me" AssociatedControlID="RememberCheckBox"></asp:Label>
+        <div>
+            <asp:Label ID="ErrorLbl" runat="server" Text="" Visible="false"  ForeColor="Red"></asp:Label>
+        </div>
     </div>
     
     <p>
